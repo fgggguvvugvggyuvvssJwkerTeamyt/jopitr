@@ -206,19 +206,13 @@ function run(msg, matches)
 		return wtext
 	end
 --------------------------------
-	if matches[1]:lower() == 'time' or matches[1]:lower() == 'Time' or matches[1]:lower() == 'ساعت' then
-		local url , res = http.request('http://api.gpmod.ir/time/')
-		if res ~= 200 then
-			return "No connection"
-		end
-		local colors = {'blue','green','yellow','magenta','Orange','DarkOrange','red'}
-		local fonts = {'mathbf','mathit','mathfrak','mathrm'}
-		local jdat = json:decode(url)
-		local url = 'http://latex.codecogs.com/png.download?'..'\\dpi{600}%20\\huge%20\\'..fonts[math.random(#fonts)]..'{{\\color{'..colors[math.random(#colors)]..'}'..jdat.ENtime..'}}'
-		local file = download_to_file(url,'time.webp')
-		tdcli.sendDocument(msg.to.id, 0, 0, 1, nil, file, '', dl_cb, nil)
-
-	end
+if matches[1]:lower() == 'time' or matches[1]:lower() == 'Time' or matches[1]:lower() == 'ساعت' then
+local url , res = http.request('http://irapi.ir/time/')
+if res ~= 200 then return "No connection" end
+local jdat = json:decode(url)
+local text = '*Ir Time:* _'..jdat.FAtime..'_\n*Ir Data:* _'..jdat.FAdate..'_\n------------\n*En Time:* _'..jdat.ENtime..'_\n *En Data:* _'..jdat.ENdate.. '_\n'
+  tdcli.sendMessage(msg.chat_id_, 0, 1, text, 1, 'md')
+end
 --------------------------------
 if matches[1] == 'voice' or matches[1] == 'Voice' or matches[1] == 'ویس' then
  local text = matches[2]
