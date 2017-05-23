@@ -1,4 +1,4 @@
-# [MahDiRoO](https://telegram.me/MahDiRoO)
+# [MahDiRoO](https://telegram.me/Mr_JwKeR)
 
 
 * * *
@@ -9,18 +9,13 @@
 ```sh
 # Let's install the bot.
 cd $HOME
-git clone https://github.com/MRMahDiRoO/MaTaDoR.git
-cd MaTaDoR
-chmod +x matador.sh
+git clone https://github.com/jwkerteam/jopitr.git
+cd jopitr
+chmod +x jopitr.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
-./matador.sh install
-./matador.sh 
+./jopite.sh install
+./jopitr.sh 
 # Enter a phone number & confirmation code.
-```
-### One command
-To install everything in one command, use:
-```sh
-cd $HOME && git clone https://github.com/MRMahDiRoO/MaTaDoR.git && cd MaTaDoR && chmod +x matador.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./matador.sh install && ./matador.sh
 ```
 
 * * *
@@ -29,7 +24,7 @@ cd $HOME && git clone https://github.com/MRMahDiRoO/MaTaDoR.git && cd MaTaDoR &&
 
 ```
 killall screen
-cd MaTaDoR && screen ./matador.sh
+cd jopitr && screen ./jopitr.sh
 ```
 
 * * *
@@ -38,7 +33,7 @@ cd MaTaDoR && screen ./matador.sh
 ### auto launch 
 ```
 killall screen
-cd MaTaDoR && screen ./auto.sh
+cd jopitr && screen ./auto.sh
 ```
 
 * * *
@@ -49,7 +44,7 @@ cd MaTaDoR && screen ./auto.sh
 Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following format:
 ```
     sudo_users = {
-    377450049,
+    285748689,
     0,
     YourID
   }
