@@ -12,7 +12,7 @@
         <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
     </a>
 </div>
-# [JoPiTr](https://telegram.me/Mr_JwKeR)
+
 
 
 * * *
