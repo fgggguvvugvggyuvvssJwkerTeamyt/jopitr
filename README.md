@@ -64,12 +64,3 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
   }
 
 
-<h2 dir="rtl">پشتیبانی
-<hr>
-<h4 dir="rtl">پذیرای انتقادات وپیشنهاداتان هستیم ♚ JwkerTeam
-♚ <a href="https://telegram.me/Jwker_Bot"> @Jwker_Bot 
-</a> <a href="https://telegram.me/Mr_JwKeR"> @Mr_JwKeR</a>
-<br>راهنمای استفاده از جوکر تیم بسیار ساده و قابل درک است<br>
-فیلم آموزشی نصب و اطلاع از آخرین اخبار جوکر تیم در کانال ما 
-<a href="https://telegram.me/Jwker_team"> @Jwker_team</a>
-</h4>
