@@ -12,10 +12,6 @@
         <img src="http://upir.ir/951/guest/Untitled-6.png" width="150">
     </a>
 </div>
-
-<h3><p dir="rtl">تبچی رباتی هوشمند, بسیار ساده و البته رایگان جهت امور تبلیغاتی در تلگرام است.<br>
-ویرایش شده توسط <a href="https://telegram.me/Jwker_team">تیم جوکر</a> برپایه اخرین نسخه <a href="https://valtman.name/telegram-cli">تلگرام</a>.
-<br>
 # [JoPiTr](https://telegram.me/Mr_JwKeR)
 
 
@@ -73,7 +69,7 @@ Open ./bot/bot.lua and add your ID to the "sudo_users" section in the following 
 <h4 dir="rtl">پذیرای انتقادات وپیشنهاداتان هستیم ♚ JwkerTeam
 ♚ <a href="https://telegram.me/Jwker_Bot"> @Jwker_Bot 
 </a> <a href="https://telegram.me/Mr_JwKeR"> @Mr_JwKeR</a>
-<br>راهنمای استفاده از تبلیغ‌گر بسیار ساده و قابل درک است<br>
-فیلم آموزشی نصب و اطلاع از آخرین اخبار تبلیغ‌گر در کانال ما 
+<br>راهنمای استفاده از جوکر تیم بسیار ساده و قابل درک است<br>
+فیلم آموزشی نصب و اطلاع از آخرین اخبار جوکر تیم در کانال ما 
 <a href="https://telegram.me/Jwker_team"> @Jwker_team</a>
 </h4>
